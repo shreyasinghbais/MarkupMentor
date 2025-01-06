@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markup Mentor</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color:bisque; 
+        }
+        header {
+            background-color:black;
+            color: #fff;
+            padding: 0.5rem 1rem; 
+            position: sticky;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }  
+        nav ul {
+            list-style: none; 
+            display: flex; 
+        }
+        li{
+            margin: 0 .5rem;
+            font-size: large;
+        }
+        a{
+            color: #fff;
+        }
+        a:hover{
+            font-size: x-large;
+        }
+        #Home{
+            display: flexbox;
+            justify-items: center;
+            padding: 5% 0;
+        }
+        #About{ 
+            display: flexbox;
+            justify-items: center;
+            padding: 15% 0;
+        }
+        #Services { 
+            display: flexbox;
+            justify-items: center;
+            padding: 10% 0;
+        }
+        #Services>ul a li{
+            list-style: lower-roman;
+            line-height: 2rem;
+            color: #000;
+        }
+        footer{
+            background-color: black;
+            color: #fff;
+            margin-top: auto;
+            position: sticky;
+            bottom: 0;
+            padding: 0.25rem 0.5rem;
+            display: flex; 
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Markup Mentor</h1>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Home">
+         <h2>Home</h2>
+         <h3>Master the fundamentals of HTML with Markup Mentor - Your guide to building the web!</h3>
+         <iframe 
+            width="900" 
+            height="425"  
+            src="https://www.youtube.com/embed/it1rTvBcfRg?si=QHK74JphRu6-FLg1" 
+            title="YouTube video player" 
+            frameborder="1" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </section>
+    <hr>
+    <section id="About">
+        <h2>About</h2>
+        <p>Welcome to Markup Mentor, your trusted partner in mastering the fundamentals of HTML 
+            and building the web with confidence!
+        </p>
+        <p>Designed for complete beginners and those looking to strengthen their foundation, our platform makes learning HTML simple, 
+            engaging, and accessible.
+        </p>   
+        <p>We believe that building the web starts with mastering the basics, and we are here to guide 
+            you every step of the way. 
+        </p>
+        <p>Start your learning journey today with Markup Mentor and turn 
+            your web development aspirations into reality!
+        </p>
+    </section>
+    <hr>
+    <section id="Services">
+        <h2>Services</h2>
+        <h4>Services of Markup Mentor includes: </h4>
+        <ul>
+            <a href="introduction.html"><li>Introduction to HTML</li></a>
+            <a href="elements.html"><li>Elements in HTML</li></a>
+            <a href="formatting.html"><li>Text Formatting in HTML</li></a>
+            <a href="media-elements.html"><li>HTML Media Elements</li></a>
+            <a href="lists.html"><li>Lists in HTML</li></a>
+            <a href="tables.html"><li>Tables in HTML</li></a>
+            <a href="forms.html"><li>Forms in HTML</li></a>
+        </ul>
+        <p>
+            <mark>Note: More lessons of HTML will be uploaded soon.</mark>
+        </p>
+    </section>   
+    <footer>
+        <p>Created by Shreya Singh Bais using the resources of javaTpoint & w3schools. All rights are reserved.</p>
+    </footer>
+</body>
+</html>
